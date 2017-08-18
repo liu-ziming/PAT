@@ -1,8 +1,10 @@
-/*用指针对五个字符串排序输出*/
+/*用指针对五个字符串排序输出  123*/
 
 #include <stdio.h> 
 #include<string.h>
 #define LINEMAX 20
+
+
 void main()
 {
 	void sort(char * *  p);
@@ -33,6 +35,9 @@ void sort(char * * p)        //冒泡排序
 			}
 			
 }
+
+
+
 
 
 
