@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: n个的全排列 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\liu-z\AppData\Local\Temp\RSP835B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/n个的全排列.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\GitHub\codingDaily\排列组合问题\n个的全排列.c"
+]
+Creating command line "cl.exe @"C:\Users\liu-z\AppData\Local\Temp\RSP835B.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+n个的全排列.c
+E:\GitHub\codingDaily\排列组合问题\n个的全排列.c(34) : error C2001: newline in constant
+E:\GitHub\codingDaily\排列组合问题\n个的全排列.c(35) : error C2143: syntax error : missing ')' before 'type'
+E:\GitHub\codingDaily\排列组合问题\n个的全排列.c(36) : error C2065: 's' : undeclared identifier
+E:\GitHub\codingDaily\排列组合问题\n个的全排列.c(36) : warning C4047: 'function' : 'int *' differs in levels of indirection from 'int '
+E:\GitHub\codingDaily\排列组合问题\n个的全排列.c(36) : warning C4024: 'func' : different types for formal and actual parameter 1
+E:\GitHub\codingDaily\排列组合问题\n个的全排列.c(37) : warning C4098: 'main' : 'void' function returning a value
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+n个的全排列.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
