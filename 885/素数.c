@@ -1,14 +1,15 @@
 //ËØÊı 
 
 #include <stdio.h>
+#include <math.h> 
 int sushu(int x)
 {
 	int i;
-	for(i=2;i<=x/2;i++){
-		if(x%i==0) break; 
+	for(i=2;i<=sqrt(x);i++){
+		if(x%i==0) return 0; 
 	}
-	if(i>x/2) return 1;
-	else return 0;
+	 return 1;
+	
 }
 int main()
 {

@@ -36,7 +36,7 @@ int main()
 					}
 					}//str[i-1] == str[i+1] 时 去掉 - ，也就是不输出 
 				}
-				else pr intf("%c",str[i]);
+				else printf("%c",str[i]);
 			}
 			else{
 				printf("%c",str[i]);

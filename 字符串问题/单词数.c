@@ -7,13 +7,13 @@
 #define N 100
 void main()
 {
-	int count=1,i,j;
+	int count=0,i,j;
 	char a[N];
 	scanf("%s",a);
 	while(strcmp(a,"stop")!=0){
-		scanf("%s",a);
-		count++;
 		
+		count++;
+		scanf("%s",a);
 	}
 	printf("%d\n",count);	
 }

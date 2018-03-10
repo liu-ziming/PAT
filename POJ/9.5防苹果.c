@@ -14,7 +14,7 @@ int count(int x,int y)
 	return    count(x,y-1)+count(x-y,y);  //分两类  至少一个盘子y空   全部不空，每个盘子减少一个苹果x-y  
 	
  } 
- 
+
 int main()
 {
 	int n;

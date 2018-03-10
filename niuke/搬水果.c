@@ -7,7 +7,7 @@ int insert_sort(int a[],int n){
 	for(i=1;i<n;i++){
 		int t=a[i];
 		j=i;
-		while(j>0&&a[j]<t){
+		while(j>0&&a[j-1]<t){
 			a[j] = a[j-1];
 			j--;
 		}

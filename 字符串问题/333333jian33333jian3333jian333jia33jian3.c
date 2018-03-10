@@ -3,7 +3,7 @@
 请勿修改主函数和其他函数；请直接在函数fun的{}中输入内容。
 
 
-*/ 
+*/   
 
 #include <stdio.h>
 #include<math.h>

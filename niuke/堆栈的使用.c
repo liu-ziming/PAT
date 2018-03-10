@@ -32,7 +32,7 @@ int main()
 	scanf("%d",&n);
 	getchar();
 	for(i=0;i<n;i++){
-		scanf("%s",order);
+		scanf("%s",order); // 技巧  用 字符串输入，而不是字符输入，减少回车带来的很多问题 
 		if(order[0] == 'A')  ask();
 		else if(order[0] == 'P'){
 			scanf("%d",&data);

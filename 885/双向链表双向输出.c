@@ -17,11 +17,11 @@ int main()
 	link->next = link->pre = NULL;
 	c=getchar();
 	while(c!='\n'){
-		temp = new doubleListNode ;
+		temp = new doubleListNode;
 		scanf("%d",&temp->n);
 		last->next = temp;
 		temp->pre  = last;
-		temp->next =NULL;
+		temp->next = NULL;
 		last = temp;
 		c=getchar();
 	}

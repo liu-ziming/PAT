@@ -11,8 +11,8 @@ int func(int x,int n)
 {
 	if(n==1) return 10*x+k;
 	else return 10*x+k + func(10*x+k,n-1);
- } 
- 
+}
+
 int main()
 {
 	scanf("%d%d",&k,&n);
