@@ -23,7 +23,7 @@ int main()
 				for(k=0;k<count;k++) printf(" ");
 			}
 			j++;
-		
+		printf("\n");
 		}//while
 	}
     }

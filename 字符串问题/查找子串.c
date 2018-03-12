@@ -30,7 +30,7 @@ int main()
 	while(substr[i]!='\0')
 	{
 		//注意 每次源字符串下标 J 不能初始化，每次从上一次的位置继续扫描  ，看是否有相等数据 
-		 flag = 0; //标志是否有相等字符 ，默认没有 
+		flag = 0; //标志是否有相等字符 ，默认没有 
 		while(sourcestr[j]!='\0')
 		{
 			if(sourcestr[j]!=substr[i]) j++;
