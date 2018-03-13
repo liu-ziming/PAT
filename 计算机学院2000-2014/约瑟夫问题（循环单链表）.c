@@ -51,9 +51,7 @@ typedef struct person
 			
 			i=1;   //重新从123报数 
 			N--;  
-		}
-		
-		i++;
+		}	i++;
 		q = per;
 		per = per->next;
 	 } 

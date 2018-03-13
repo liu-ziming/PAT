@@ -13,7 +13,6 @@ int main()
 		if(strlen(str)>strlen(temp))
 		    strcpy(temp,str);
 		gets(str);
-		
 	} 
 	puts(temp);
  } 

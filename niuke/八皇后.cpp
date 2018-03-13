@@ -17,12 +17,12 @@ int find(int i,int k)
 {
 	int j;
 	for(j=1;j<k;j++){//k之前的列 
-		if(p[j]==i || abs(p[j]-i)==abs(j-k))
+		if(p[j]==i || abs(p[j]-i)==abs(j-k))  
 			return 0;
 	}
 	return 1;
 }
-int place(int k,int n)//放第k列 
+int place(int k,int n)//放第k列     
 {
 	if(k>n){
 		print();return 0;

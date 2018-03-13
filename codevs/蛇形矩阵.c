@@ -35,12 +35,12 @@ int main()
 	scanf("%d",&n);
 	int a[n+1][n+1];
 	int i,j,m,k,p,t=1;
-	i=j=n/2;//中心 
+	i=j=n/2;//中心           
 	m=n/2;//层数 
 	a[i][j]=t++;
-	for(k=2;k/2<=m;k+=2)
+	for(k=2;k/2<=m;k+=2) //k代表每层个数 
 	{
-		j++;
+		j++;               
 		for(p=0;p<k;p++)
 			a[i--][j]=t++;//向上
 		i++;
